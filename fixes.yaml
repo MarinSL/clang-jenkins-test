@@ -1,0 +1,18 @@
+---
+MainSourceFile:  '/home/mk1988/Documents/test/test.cpp'
+Diagnostics:
+  - DiagnosticName:  modernize-use-override
+    DiagnosticMessage:
+      Message:         'prefer using ''override'' or (rarely) ''final'' instead of ''virtual'''
+      FilePath:        '/home/mk1988/Documents/test/test.cpp'
+      FileOffset:      175
+      Replacements:
+        - FilePath:        '/home/mk1988/Documents/test/test.cpp'
+          Offset:          162
+          Length:          8
+          ReplacementText: ''
+        - FilePath:        '/home/mk1988/Documents/test/test.cpp'
+          Offset:          181
+          Length:          0
+          ReplacementText: ' override'
+...
